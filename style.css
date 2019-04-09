@@ -1,0 +1,17 @@
+body{
+	font-family:Verdana;
+	border-style:groove;
+	border-width:15px;	
+	border-color:red;
+	color:blue;
+	size:60px;
+}
+
+
+
+p{
+	font-family:Consolas;
+	font-weight:none;
+	font-size:40px;
+	color:#abdd11;
+}
