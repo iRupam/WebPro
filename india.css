@@ -1,0 +1,23 @@
+body{
+	background-color:yellow;
+	margin-left:40%;	
+	margin-right:40%;
+}
+
+.top{
+	background-color:orange;
+	width:320px;
+	height:80px;
+}
+
+.mid{
+	background-color:white;
+	width:320px;
+	height:80px;
+}
+
+.botm{
+	background-color:green;
+	width:320px;
+	height:80px;
+}
