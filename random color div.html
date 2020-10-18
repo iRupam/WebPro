@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+#myDiv{
+	height:200px;
+	width:200px;
+}
+.button{
+	border-radius:30px;
+	background-color:navy;
+	font-size:16px;
+	padding:20px;
+	color:white;
+}
+
+</style>
+<title>Color Me</title>
+</head>
+<body>
+<div id="myDiv"></div>
+<script>
+function getNewRandomColor()
+{
+    var myArray = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'powderblue', 'magenta'];    
+    var rand = myArray[Math.floor(Math.random() * myArray.length)];
+    document.getElementById("myDiv").style.backgroundColor = rand;
+}
+</script>
+
+<button class="button" onclick="getNewRandomColor()">Color Me</button>
+</body>
+</html>
